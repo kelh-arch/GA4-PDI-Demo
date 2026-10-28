@@ -1,0 +1,2297 @@
+{
+  "google_ads_geo_lia_payload.json": {
+    "target_platform": "Google Ads API v17 (LocationCriterionService + LocalInventoryAdFeed)",
+    "generated_at": "2026-10-27T14:56:34.267439+00:00",
+    "total_zctas_activated": 32,
+    "zcta_directives": [
+      {
+        "location_criterion_zcta": "US-94043",
+        "geo_name": "Mountain View, CA",
+        "use_case_a_role": "SEED_CHAMPION",
+        "pdi_330d_cosine_similarity": 0.9961,
+        "whitespace_opportunity_score": 0.475,
+        "predicted_expansion_roas": 3.42,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-BAY-01",
+        "local_store_on_hand": 27,
+        "effective_days_of_supply": 2.9,
+        "dtc_warehouse_available": 434,
+        "google_ads_bid_adjustment": "+10%",
+        "campaign_directive": "DTC Shopping / PMax (WH-WEST-RENO) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Mountain View, CA: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-94301",
+        "geo_name": "Palo Alto, CA",
+        "use_case_a_role": "SEED_CHAMPION",
+        "pdi_330d_cosine_similarity": 0.9965,
+        "whitespace_opportunity_score": 0.5129,
+        "predicted_expansion_roas": 3.54,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-BAY-02",
+        "local_store_on_hand": 64,
+        "effective_days_of_supply": 9.7,
+        "dtc_warehouse_available": 177,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (94301): Pick Up Google Pixel 8 Pro Today at Stanford Shopping Center Hub (64 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-10012",
+        "geo_name": "New York (SoHo), NY",
+        "use_case_a_role": "SEED_CHAMPION",
+        "pdi_330d_cosine_similarity": 0.9945,
+        "whitespace_opportunity_score": 0.4143,
+        "predicted_expansion_roas": 3.21,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-NYC-01",
+        "local_store_on_hand": 66,
+        "effective_days_of_supply": 8.0,
+        "dtc_warehouse_available": 139,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (10012): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (66 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-10013",
+        "geo_name": "New York (Tribeca), NY",
+        "use_case_a_role": "SEED_CHAMPION",
+        "pdi_330d_cosine_similarity": 0.9954,
+        "whitespace_opportunity_score": 0.4452,
+        "predicted_expansion_roas": 3.31,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-NYC-01",
+        "local_store_on_hand": 41,
+        "effective_days_of_supply": 5.2,
+        "dtc_warehouse_available": 304,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (10013): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (41 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-78701",
+        "geo_name": "Austin (Downtown), TX",
+        "use_case_a_role": "SEED_CHAMPION",
+        "pdi_330d_cosine_similarity": 0.9967,
+        "whitespace_opportunity_score": 0.5583,
+        "predicted_expansion_roas": 3.7,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-ATX-01",
+        "local_store_on_hand": 26,
+        "effective_days_of_supply": 2.7,
+        "dtc_warehouse_available": 313,
+        "google_ads_bid_adjustment": "+10%",
+        "campaign_directive": "DTC Shopping / PMax (WH-SOUTH-DFW) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Austin (Downtown), TX: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-78758",
+        "geo_name": "Austin (The Domain), TX",
+        "use_case_a_role": "SEED_CHAMPION",
+        "pdi_330d_cosine_similarity": 0.9954,
+        "whitespace_opportunity_score": 0.5838,
+        "predicted_expansion_roas": 3.78,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-ATX-02",
+        "local_store_on_hand": 4,
+        "effective_days_of_supply": 0.4,
+        "dtc_warehouse_available": 492,
+        "google_ads_bid_adjustment": "+10%",
+        "campaign_directive": "DTC Shopping / PMax (WH-SOUTH-DFW) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Austin (The Domain), TX: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-98004",
+        "geo_name": "Bellevue (Downtown), WA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9935,
+        "whitespace_opportunity_score": 0.921,
+        "predicted_expansion_roas": 4.93,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-SEA-01",
+        "local_store_on_hand": 47,
+        "effective_days_of_supply": 4.1,
+        "dtc_warehouse_available": 381,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (98004): Pick Up Google Pixel 8 Pro Today at Bellevue Square Partner Hub (47 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-94086",
+        "geo_name": "Sunnyvale, CA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9942,
+        "whitespace_opportunity_score": 0.9014,
+        "predicted_expansion_roas": 4.86,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-BAY-01",
+        "local_store_on_hand": 12,
+        "effective_days_of_supply": 0.9,
+        "dtc_warehouse_available": 207,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-WEST-RENO) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Sunnyvale, CA: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-95014",
+        "geo_name": "Cupertino, CA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9951,
+        "whitespace_opportunity_score": 0.9359,
+        "predicted_expansion_roas": 4.98,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-BAY-01",
+        "local_store_on_hand": 39,
+        "effective_days_of_supply": 3.7,
+        "dtc_warehouse_available": 308,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (95014): Pick Up Google Pixel 8 Pro Today at Google Store Mountain View (39 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-02139",
+        "geo_name": "Cambridge (Kendall Sq), MA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9914,
+        "whitespace_opportunity_score": 0.9391,
+        "predicted_expansion_roas": 4.99,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "SUPPRESS_HOLD_SPEND",
+        "local_store_id": "STR-BOS-01",
+        "local_store_on_hand": 3,
+        "effective_days_of_supply": 0.3,
+        "dtc_warehouse_available": 12,
+        "google_ads_bid_adjustment": "-100% (Paused)",
+        "campaign_directive": "Pause Paid SKU Media (Prevent Stockout Ad Waste)",
+        "ad_customizer_headline": "Google Pixel 8 Pro Is High-Demand in Cambridge (Kendall Sq), MA \u2014 Get Restock Alert & Explore Similar Favorites"
+      },
+      {
+        "location_criterion_zcta": "US-11211",
+        "geo_name": "Brooklyn (Williamsburg), NY",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9936,
+        "whitespace_opportunity_score": 0.894,
+        "predicted_expansion_roas": 4.84,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-BKN-01",
+        "local_store_on_hand": 34,
+        "effective_days_of_supply": 3.7,
+        "dtc_warehouse_available": 139,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (11211): Pick Up Google Pixel 8 Pro Today at Google Store Williamsburg (34 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-80302",
+        "geo_name": "Boulder (Pearl St), CO",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9938,
+        "whitespace_opportunity_score": 0.948,
+        "predicted_expansion_roas": 5.02,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-DEN-01",
+        "local_store_on_hand": 13,
+        "effective_days_of_supply": 1.3,
+        "dtc_warehouse_available": 363,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-WEST-RENO) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Boulder (Pearl St), CO: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-60607",
+        "geo_name": "Chicago (Fulton Market), IL",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9928,
+        "whitespace_opportunity_score": 0.9136,
+        "predicted_expansion_roas": 4.91,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-CHI-01",
+        "local_store_on_hand": 2,
+        "effective_days_of_supply": 0.2,
+        "dtc_warehouse_available": 383,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-MIDWEST-ORD) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Chicago (Fulton Market), IL: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-75024",
+        "geo_name": "Plano (Legacy West), TX",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9946,
+        "whitespace_opportunity_score": 0.9288,
+        "predicted_expansion_roas": 4.96,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-DFW-01",
+        "local_store_on_hand": 27,
+        "effective_days_of_supply": 5.6,
+        "dtc_warehouse_available": 300,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (75024): Pick Up Google Pixel 8 Pro Today at Legacy West Retail Showcase (27 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-90401",
+        "geo_name": "Santa Monica, CA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9956,
+        "whitespace_opportunity_score": 0.8889,
+        "predicted_expansion_roas": 4.82,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-LAX-01",
+        "local_store_on_hand": 43,
+        "effective_days_of_supply": 6.3,
+        "dtc_warehouse_available": 156,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (90401): Pick Up Google Pixel 8 Pro Today at Third Street Promenade Hub (43 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-98101",
+        "geo_name": "Seattle (Downtown / SLU), WA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9918,
+        "whitespace_opportunity_score": 0.8718,
+        "predicted_expansion_roas": 4.76,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-SEA-01",
+        "local_store_on_hand": 55,
+        "effective_days_of_supply": 5.7,
+        "dtc_warehouse_available": 326,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (98101): Pick Up Google Pixel 8 Pro Today at Bellevue Square Partner Hub (55 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-92618",
+        "geo_name": "Irvine (Spectrum), CA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9945,
+        "whitespace_opportunity_score": 0.9354,
+        "predicted_expansion_roas": 4.98,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-LAX-02",
+        "local_store_on_hand": 5,
+        "effective_days_of_supply": 0.7,
+        "dtc_warehouse_available": 207,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-WEST-RENO) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Irvine (Spectrum), CA: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-30309",
+        "geo_name": "Atlanta (Midtown), GA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9956,
+        "whitespace_opportunity_score": 0.923,
+        "predicted_expansion_roas": 4.94,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "SUPPRESS_HOLD_SPEND",
+        "local_store_id": "STR-ATL-01",
+        "local_store_on_hand": 2,
+        "effective_days_of_supply": 0.2,
+        "dtc_warehouse_available": 16,
+        "google_ads_bid_adjustment": "-100% (Paused)",
+        "campaign_directive": "Pause Paid SKU Media (Prevent Stockout Ad Waste)",
+        "ad_customizer_headline": "Google Pixel 8 Pro Is High-Demand in Atlanta (Midtown), GA \u2014 Get Restock Alert & Explore Similar Favorites"
+      },
+      {
+        "location_criterion_zcta": "US-85251",
+        "geo_name": "Scottsdale (Old Town), AZ",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9931,
+        "whitespace_opportunity_score": 0.9407,
+        "predicted_expansion_roas": 5.0,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-PHX-01",
+        "local_store_on_hand": 39,
+        "effective_days_of_supply": 4.0,
+        "dtc_warehouse_available": 444,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (85251): Pick Up Google Pixel 8 Pro Today at Scottsdale Fashion Square Hub (39 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-27601",
+        "geo_name": "Raleigh (Research Triangle), NC",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9946,
+        "whitespace_opportunity_score": 0.9554,
+        "predicted_expansion_roas": 5.05,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-ATL-01",
+        "local_store_on_hand": 9,
+        "effective_days_of_supply": 1.3,
+        "dtc_warehouse_available": 351,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-EAST-EDISON) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Raleigh (Research Triangle), NC: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-20190",
+        "geo_name": "Reston (Tech Corridor), VA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9942,
+        "whitespace_opportunity_score": 0.9418,
+        "predicted_expansion_roas": 5.0,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-DCA-01",
+        "local_store_on_hand": 28,
+        "effective_days_of_supply": 3.6,
+        "dtc_warehouse_available": 440,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (20190): Pick Up Google Pixel 8 Pro Today at Tysons Corner Tech Gallery (28 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-07030",
+        "geo_name": "Hoboken, NJ",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9942,
+        "whitespace_opportunity_score": 0.9149,
+        "predicted_expansion_roas": 4.91,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-NYC-01",
+        "local_store_on_hand": 54,
+        "effective_days_of_supply": 6.9,
+        "dtc_warehouse_available": 192,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (07030): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (54 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-94107",
+        "geo_name": "San Francisco (SoMa), CA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9953,
+        "whitespace_opportunity_score": 0.8469,
+        "predicted_expansion_roas": 4.68,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-SFO-01",
+        "local_store_on_hand": 2,
+        "effective_days_of_supply": 0.2,
+        "dtc_warehouse_available": 492,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-WEST-RENO) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to San Francisco (SoMa), CA: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-95110",
+        "geo_name": "San Jose (Downtown), CA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9951,
+        "whitespace_opportunity_score": 0.8953,
+        "predicted_expansion_roas": 4.84,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-BAY-01",
+        "local_store_on_hand": 33,
+        "effective_days_of_supply": 5.9,
+        "dtc_warehouse_available": 174,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (95110): Pick Up Google Pixel 8 Pro Today at Google Store Mountain View (33 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-02116",
+        "geo_name": "Boston (Back Bay), MA",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9932,
+        "whitespace_opportunity_score": 0.9005,
+        "predicted_expansion_roas": 4.86,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-BOS-01",
+        "local_store_on_hand": 9,
+        "effective_days_of_supply": 0.7,
+        "dtc_warehouse_available": 243,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-EAST-EDISON) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Boston (Back Bay), MA: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-80206",
+        "geo_name": "Denver (Cherry Creek), CO",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9944,
+        "whitespace_opportunity_score": 0.9286,
+        "predicted_expansion_roas": 4.96,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-DEN-01",
+        "local_store_on_hand": 14,
+        "effective_days_of_supply": 1.6,
+        "dtc_warehouse_available": 328,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-WEST-RENO) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Denver (Cherry Creek), CO: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-33131",
+        "geo_name": "Miami (Brickell), FL",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9931,
+        "whitespace_opportunity_score": 0.9072,
+        "predicted_expansion_roas": 4.88,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-MIA-01",
+        "local_store_on_hand": 36,
+        "effective_days_of_supply": 6.3,
+        "dtc_warehouse_available": 128,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (33131): Pick Up Google Pixel 8 Pro Today at Miami Design District Lounge (36 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-75201",
+        "geo_name": "Dallas (Arts District / Uptown), TX",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9951,
+        "whitespace_opportunity_score": 0.9022,
+        "predicted_expansion_roas": 4.87,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "DTC_WAREHOUSE_SHIP",
+        "local_store_id": "STR-DFW-01",
+        "local_store_on_hand": 4,
+        "effective_days_of_supply": 0.5,
+        "dtc_warehouse_available": 188,
+        "google_ads_bid_adjustment": "+20%",
+        "campaign_directive": "DTC Shopping / PMax (WH-SOUTH-DFW) \u2014 Store Extensions Suppressed",
+        "ad_customizer_headline": "Fast Direct Delivery to Dallas (Arts District / Uptown), TX: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!"
+      },
+      {
+        "location_criterion_zcta": "US-60201",
+        "geo_name": "Evanston (North Shore), IL",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9868,
+        "whitespace_opportunity_score": 0.9544,
+        "predicted_expansion_roas": 5.04,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-CHI-01",
+        "local_store_on_hand": 64,
+        "effective_days_of_supply": 9.7,
+        "dtc_warehouse_available": 266,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (60201): Pick Up Google Pixel 8 Pro Today at Chicago Fulton Market Store (64 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-55401",
+        "geo_name": "Minneapolis (North Loop), MN",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9815,
+        "whitespace_opportunity_score": 0.9428,
+        "predicted_expansion_roas": 5.01,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-MSP-01",
+        "local_store_on_hand": 51,
+        "effective_days_of_supply": 11.6,
+        "dtc_warehouse_available": 154,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (55401): Pick Up Google Pixel 8 Pro Today at Mall of America Partner Kiosk (51 Available)!"
+      },
+      {
+        "location_criterion_zcta": "US-97209",
+        "geo_name": "Portland (Pearl District), OR",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.994,
+        "whitespace_opportunity_score": 0.9482,
+        "predicted_expansion_roas": 5.02,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "SUPPRESS_HOLD_SPEND",
+        "local_store_id": "STR-PDX-01",
+        "local_store_on_hand": 4,
+        "effective_days_of_supply": 0.5,
+        "dtc_warehouse_available": 10,
+        "google_ads_bid_adjustment": "-100% (Paused)",
+        "campaign_directive": "Pause Paid SKU Media (Prevent Stockout Ad Waste)",
+        "ad_customizer_headline": "Google Pixel 8 Pro Is High-Demand in Portland (Pearl District), OR \u2014 Get Restock Alert & Explore Similar Favorites"
+      },
+      {
+        "location_criterion_zcta": "US-84101",
+        "geo_name": "Salt Lake City (Silicon Slopes), UT",
+        "use_case_a_role": "PDI_LOOKALIKE_EXPANSION",
+        "pdi_330d_cosine_similarity": 0.9944,
+        "whitespace_opportunity_score": 0.9618,
+        "predicted_expansion_roas": 5.07,
+        "primary_sku_id": "PROD-101",
+        "use_case_b_routing": "IN_STORE_BOPIS_LIA",
+        "local_store_id": "STR-SLC-01",
+        "local_store_on_hand": 68,
+        "effective_days_of_supply": 15.6,
+        "dtc_warehouse_available": 181,
+        "google_ads_bid_adjustment": "+35%",
+        "campaign_directive": "Google Ads Local Inventory Ads (LIA) + BOPIS Radius Boost",
+        "ad_customizer_headline": "In Stock Near You (84101): Pick Up Google Pixel 8 Pro Today at City Creek Tech Studio (68 Available)!"
+      }
+    ]
+  },
+  "ga4_measurement_protocol_geo_payload.json": {
+    "target_platform": "GA4 Measurement Protocol (https://www.google-analytics.com/mp/collect)",
+    "generated_at": "2026-10-27T14:56:34.267439+00:00",
+    "batch_size": 30,
+    "payloads": [
+      {
+        "client_id": "10928374.4240986228",
+        "user_id": "10928374.4240986228",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "78701"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "8.5"
+          },
+          "personalized_offer_pct": {
+            "value": "2.8%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "78701",
+              "sku_id": "PROD-106",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.9659995541",
+        "user_id": "USR-12448",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "78701"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "1.0"
+          },
+          "personalized_offer_pct": {
+            "value": "0.8%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "78701",
+              "sku_id": "PROD-105",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.8169210984",
+        "user_id": "USR-23780",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94043"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "2.9"
+          },
+          "personalized_offer_pct": {
+            "value": "1.2%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94043",
+              "sku_id": "PROD-101",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.4332489938",
+        "user_id": "USR-71122",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "5.2"
+          },
+          "personalized_offer_pct": {
+            "value": "12.1%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.3856328887",
+        "user_id": "10928374.3856328887",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94043"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "1.1"
+          },
+          "personalized_offer_pct": {
+            "value": "1.3%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94043",
+              "sku_id": "PROD-106",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.9401283737",
+        "user_id": "USR-81024",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "5.2"
+          },
+          "personalized_offer_pct": {
+            "value": "4.4%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.8020754754",
+        "user_id": "USR-64682",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "55401"
+          },
+          "pdi_geo_segment": {
+            "value": "PDI_LOOKALIKE_EXPANSION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.6"
+          },
+          "personalized_offer_pct": {
+            "value": "12.3%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "55401",
+              "sku_id": "PROD-104",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.2875468155",
+        "user_id": "USR-51920",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "97209"
+          },
+          "pdi_geo_segment": {
+            "value": "PDI_LOOKALIKE_EXPANSION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "7.4"
+          },
+          "personalized_offer_pct": {
+            "value": "19.9%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "97209",
+              "sku_id": "PROD-102",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.4601740269",
+        "user_id": "USR-98652",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "5.2"
+          },
+          "personalized_offer_pct": {
+            "value": "11.1%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.1629671764",
+        "user_id": "10928374.1629671764",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "20190"
+          },
+          "pdi_geo_segment": {
+            "value": "PDI_LOOKALIKE_EXPANSION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "4.7"
+          },
+          "personalized_offer_pct": {
+            "value": "10.1%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "20190",
+              "sku_id": "PROD-106",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.6121889762",
+        "user_id": "10928374.6121889762",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.7"
+          },
+          "personalized_offer_pct": {
+            "value": "0.8%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-107",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.1629785798",
+        "user_id": "10928374.1629785798",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94301"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "9.7"
+          },
+          "personalized_offer_pct": {
+            "value": "1.2%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94301",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.9034208601",
+        "user_id": "USR-45979",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "4.3"
+          },
+          "personalized_offer_pct": {
+            "value": "1.2%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-104",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.3599985020",
+        "user_id": "10928374.3599985020",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10012"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.0"
+          },
+          "personalized_offer_pct": {
+            "value": "13.1%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10012",
+              "sku_id": "PROD-105",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.3939956916",
+        "user_id": "10928374.3939956916",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94301"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "1.0"
+          },
+          "personalized_offer_pct": {
+            "value": "19.3%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94301",
+              "sku_id": "PROD-107",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.4159996716",
+        "user_id": "USR-95552",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10012"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "SUPPRESS_HOLD_SPEND"
+          },
+          "nearest_store_edos": {
+            "value": "0.1"
+          },
+          "personalized_offer_pct": {
+            "value": "18.9%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10012",
+              "sku_id": "PROD-104",
+              "routing_decision": "SUPPRESS_HOLD_SPEND"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.2486114107",
+        "user_id": "USR-85210",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "5.2"
+          },
+          "personalized_offer_pct": {
+            "value": "4.4%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.1264698356",
+        "user_id": "10928374.1264698356",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.7"
+          },
+          "personalized_offer_pct": {
+            "value": "16.4%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-107",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.4509313921",
+        "user_id": "10928374.4509313921",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "78758"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "1.0"
+          },
+          "personalized_offer_pct": {
+            "value": "4.4%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "78758",
+              "sku_id": "PROD-104",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.6637702463",
+        "user_id": "USR-48093",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10012"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "8.0"
+          },
+          "personalized_offer_pct": {
+            "value": "4.4%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10012",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.5009265435",
+        "user_id": "USR-12809",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94301"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "9.7"
+          },
+          "personalized_offer_pct": {
+            "value": "15.5%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94301",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.3441175984",
+        "user_id": "10928374.3441175984",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "20190"
+          },
+          "pdi_geo_segment": {
+            "value": "PDI_LOOKALIKE_EXPANSION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "3.6"
+          },
+          "personalized_offer_pct": {
+            "value": "20.0%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "20190",
+              "sku_id": "PROD-101",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.5709043325",
+        "user_id": "10928374.5709043325",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "30309"
+          },
+          "pdi_geo_segment": {
+            "value": "PDI_LOOKALIKE_EXPANSION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "4.6"
+          },
+          "personalized_offer_pct": {
+            "value": "12.7%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "30309",
+              "sku_id": "PROD-105",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.2957301180",
+        "user_id": "10928374.2957301180",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94301"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "4.0"
+          },
+          "personalized_offer_pct": {
+            "value": "12.1%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94301",
+              "sku_id": "PROD-106",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.2056570186",
+        "user_id": "10928374.2056570186",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.4"
+          },
+          "personalized_offer_pct": {
+            "value": "11.1%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-105",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.4809012397",
+        "user_id": "10928374.4809012397",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94043"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "5.8"
+          },
+          "personalized_offer_pct": {
+            "value": "14.8%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94043",
+              "sku_id": "PROD-104",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.6071928600",
+        "user_id": "USR-25836",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "75201"
+          },
+          "pdi_geo_segment": {
+            "value": "PDI_LOOKALIKE_EXPANSION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "1.2"
+          },
+          "personalized_offer_pct": {
+            "value": "19.9%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "75201",
+              "sku_id": "PROD-104",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.2075107462",
+        "user_id": "USR-29846",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "94043"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.5"
+          },
+          "personalized_offer_pct": {
+            "value": "18.6%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "94043",
+              "sku_id": "PROD-107",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.7479902771",
+        "user_id": "USR-31844",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "78701"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "IN_STORE_BOPIS_LIA"
+          },
+          "nearest_store_edos": {
+            "value": "8.5"
+          },
+          "personalized_offer_pct": {
+            "value": "0.8%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "78701",
+              "sku_id": "PROD-106",
+              "routing_decision": "IN_STORE_BOPIS_LIA"
+            }
+          }
+        ]
+      },
+      {
+        "client_id": "10928374.8256808191",
+        "user_id": "USR-43950",
+        "user_properties": {
+          "resolved_zcta": {
+            "value": "10013"
+          },
+          "pdi_geo_segment": {
+            "value": "SEED_CHAMPION"
+          },
+          "stock_routing_channel": {
+            "value": "DTC_WAREHOUSE_SHIP"
+          },
+          "nearest_store_edos": {
+            "value": "0.7"
+          },
+          "personalized_offer_pct": {
+            "value": "18.7%"
+          }
+        },
+        "events": [
+          {
+            "name": "omnichannel_stock_route_assigned",
+            "params": {
+              "zcta": "10013",
+              "sku_id": "PROD-107",
+              "routing_decision": "DTC_WAREHOUSE_SHIP"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "dtc_web_personalization_payload.json": {
+    "target_platform": "Edge Storefront Personalization API (Geo + Stock + 1:1 GA4)",
+    "generated_at": "2026-10-27T14:56:34.267439+00:00",
+    "profiles_count": 50,
+    "profiles": [
+      {
+        "user_pseudo_id": "10928374.4240986228",
+        "user_id": "10928374.4240986228",
+        "resolved_zcta": "78701",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Austin Congress Flagship",
+        "effective_days_of_supply": 8.5,
+        "ga4_1to1_discount_pct": 2.8,
+        "ga4_coupon_code": "NUDGE28-9359",
+        "personalized_hero_banner": "In Stock Near You (78701): Pick Up BigQuery Data Ninja Mug Today at Austin Congress Flagship (43 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.9659995541",
+        "user_id": "USR-12448",
+        "resolved_zcta": "78701",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Apparel",
+        "routed_sku_id": "PROD-105",
+        "routed_sku_name": "GCP Cloud Developer Hoodie",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Austin Congress Flagship",
+        "effective_days_of_supply": 1.0,
+        "ga4_1to1_discount_pct": 0.8,
+        "ga4_coupon_code": "NUDGE8-9322",
+        "personalized_hero_banner": "Fast Direct Delivery to Austin (Downtown), TX: Get GCP Cloud Developer Hoodie Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.8169210984",
+        "user_id": "USR-23780",
+        "resolved_zcta": "94043",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Mountain View",
+        "effective_days_of_supply": 2.9,
+        "ga4_1to1_discount_pct": 1.2,
+        "ga4_coupon_code": "NUDGE12-4220",
+        "personalized_hero_banner": "Fast Direct Delivery to Mountain View, CA: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.4332489938",
+        "user_id": "USR-71122",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 5.2,
+        "ga4_1to1_discount_pct": 12.1,
+        "ga4_coupon_code": "SAVE121-2051",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (41 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.3856328887",
+        "user_id": "10928374.3856328887",
+        "resolved_zcta": "94043",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Mountain View",
+        "effective_days_of_supply": 1.1,
+        "ga4_1to1_discount_pct": 1.3,
+        "ga4_coupon_code": "NUDGE13-4346",
+        "personalized_hero_banner": "Fast Direct Delivery to Mountain View, CA: Get BigQuery Data Ninja Mug Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.9401283737",
+        "user_id": "USR-81024",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 5.2,
+        "ga4_1to1_discount_pct": 4.4,
+        "ga4_coupon_code": "NUDGE44-3219",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (41 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.8020754754",
+        "user_id": "USR-64682",
+        "resolved_zcta": "55401",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Mall of America Partner Kiosk",
+        "effective_days_of_supply": 0.6,
+        "ga4_1to1_discount_pct": 12.3,
+        "ga4_coupon_code": "SAVE123-0024",
+        "personalized_hero_banner": "Fast Direct Delivery to Minneapolis (North Loop), MN: Get Nest Learning Thermostat Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.2875468155",
+        "user_id": "USR-51920",
+        "resolved_zcta": "97209",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Audio",
+        "routed_sku_id": "PROD-102",
+        "routed_sku_name": "Pixel Buds Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Pioneer Place Experience",
+        "effective_days_of_supply": 7.4,
+        "ga4_1to1_discount_pct": 19.9,
+        "ga4_coupon_code": "SAVE199-0467",
+        "personalized_hero_banner": "In Stock Near You (97209): Pick Up Pixel Buds Pro Today at Pioneer Place Experience (38 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.4601740269",
+        "user_id": "USR-98652",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 5.2,
+        "ga4_1to1_discount_pct": 11.1,
+        "ga4_coupon_code": "SAVE111-3364",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (41 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.1629671764",
+        "user_id": "10928374.1629671764",
+        "resolved_zcta": "20190",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Tysons Corner Tech Gallery",
+        "effective_days_of_supply": 4.7,
+        "ga4_1to1_discount_pct": 10.1,
+        "ga4_coupon_code": "SAVE101-7717",
+        "personalized_hero_banner": "In Stock Near You (20190): Pick Up BigQuery Data Ninja Mug Today at Tysons Corner Tech Gallery (44 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.6121889762",
+        "user_id": "10928374.6121889762",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.7,
+        "ga4_1to1_discount_pct": 0.8,
+        "ga4_coupon_code": "VIP8-7602",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (Tribeca), NY: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.1629785798",
+        "user_id": "10928374.1629785798",
+        "resolved_zcta": "94301",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Stanford Shopping Center Hub",
+        "effective_days_of_supply": 9.7,
+        "ga4_1to1_discount_pct": 1.2,
+        "ga4_coupon_code": "NUDGE12-3536",
+        "personalized_hero_banner": "In Stock Near You (94301): Pick Up Google Pixel 8 Pro Today at Stanford Shopping Center Hub (64 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.9034208601",
+        "user_id": "USR-45979",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 4.3,
+        "ga4_1to1_discount_pct": 1.2,
+        "ga4_coupon_code": "NUDGE12-9934",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Nest Learning Thermostat Today at Google Store Chelsea NYC (29 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.3599985020",
+        "user_id": "10928374.3599985020",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Apparel",
+        "routed_sku_id": "PROD-105",
+        "routed_sku_name": "GCP Cloud Developer Hoodie",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.0,
+        "ga4_1to1_discount_pct": 13.1,
+        "ga4_coupon_code": "SAVE131-1850",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (SoHo), NY: Get GCP Cloud Developer Hoodie Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.3939956916",
+        "user_id": "10928374.3939956916",
+        "resolved_zcta": "94301",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Stanford Shopping Center Hub",
+        "effective_days_of_supply": 1.0,
+        "ga4_1to1_discount_pct": 19.3,
+        "ga4_coupon_code": "SAVE193-2626",
+        "personalized_hero_banner": "Fast Direct Delivery to Palo Alto, CA: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.4159996716",
+        "user_id": "USR-95552",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "SUPPRESS_HOLD_SPEND",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.1,
+        "ga4_1to1_discount_pct": 18.9,
+        "ga4_coupon_code": "SAVE189-9448",
+        "personalized_hero_banner": "Nest Learning Thermostat Is High-Demand in New York (SoHo), NY \u2014 Get Restock Alert & Explore Similar Favorites",
+        "personalized_cta": "Notify Me When Restocked"
+      },
+      {
+        "user_pseudo_id": "10928374.2486114107",
+        "user_id": "USR-85210",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 5.2,
+        "ga4_1to1_discount_pct": 4.4,
+        "ga4_coupon_code": "NUDGE44-5378",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (41 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.1264698356",
+        "user_id": "10928374.1264698356",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.7,
+        "ga4_1to1_discount_pct": 16.4,
+        "ga4_coupon_code": "SAVE164-2123",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (Tribeca), NY: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.4509313921",
+        "user_id": "10928374.4509313921",
+        "resolved_zcta": "78758",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Domain Northside Experience",
+        "effective_days_of_supply": 1.0,
+        "ga4_1to1_discount_pct": 4.4,
+        "ga4_coupon_code": "NUDGE44-7672",
+        "personalized_hero_banner": "Fast Direct Delivery to Austin (The Domain), TX: Get Nest Learning Thermostat Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.6637702463",
+        "user_id": "USR-48093",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 8.0,
+        "ga4_1to1_discount_pct": 4.4,
+        "ga4_coupon_code": "NUDGE44-5591",
+        "personalized_hero_banner": "In Stock Near You (10012): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (66 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.5009265435",
+        "user_id": "USR-12809",
+        "resolved_zcta": "94301",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Stanford Shopping Center Hub",
+        "effective_days_of_supply": 9.7,
+        "ga4_1to1_discount_pct": 15.5,
+        "ga4_coupon_code": "SAVE155-6281",
+        "personalized_hero_banner": "In Stock Near You (94301): Pick Up Google Pixel 8 Pro Today at Stanford Shopping Center Hub (64 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.3441175984",
+        "user_id": "10928374.3441175984",
+        "resolved_zcta": "20190",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Tysons Corner Tech Gallery",
+        "effective_days_of_supply": 3.6,
+        "ga4_1to1_discount_pct": 20.0,
+        "ga4_coupon_code": "SAVE200-9228",
+        "personalized_hero_banner": "In Stock Near You (20190): Pick Up Google Pixel 8 Pro Today at Tysons Corner Tech Gallery (28 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.5709043325",
+        "user_id": "10928374.5709043325",
+        "resolved_zcta": "30309",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Apparel",
+        "routed_sku_id": "PROD-105",
+        "routed_sku_name": "GCP Cloud Developer Hoodie",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Ponce City Market Showcase",
+        "effective_days_of_supply": 4.6,
+        "ga4_1to1_discount_pct": 12.7,
+        "ga4_coupon_code": "SAVE127-3751",
+        "personalized_hero_banner": "In Stock Near You (30309): Pick Up GCP Cloud Developer Hoodie Today at Ponce City Market Showcase (27 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.2957301180",
+        "user_id": "10928374.2957301180",
+        "resolved_zcta": "94301",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Stanford Shopping Center Hub",
+        "effective_days_of_supply": 4.0,
+        "ga4_1to1_discount_pct": 12.1,
+        "ga4_coupon_code": "SAVE121-6430",
+        "personalized_hero_banner": "In Stock Near You (94301): Pick Up BigQuery Data Ninja Mug Today at Stanford Shopping Center Hub (25 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.2056570186",
+        "user_id": "10928374.2056570186",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Apparel",
+        "routed_sku_id": "PROD-105",
+        "routed_sku_name": "GCP Cloud Developer Hoodie",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.4,
+        "ga4_1to1_discount_pct": 11.1,
+        "ga4_coupon_code": "SAVE111-5239",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (Tribeca), NY: Get GCP Cloud Developer Hoodie Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.4809012397",
+        "user_id": "10928374.4809012397",
+        "resolved_zcta": "94043",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Mountain View",
+        "effective_days_of_supply": 5.8,
+        "ga4_1to1_discount_pct": 14.8,
+        "ga4_coupon_code": "SAVE148-7142",
+        "personalized_hero_banner": "In Stock Near You (94043): Pick Up Nest Learning Thermostat Today at Google Store Mountain View (65 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.6071928600",
+        "user_id": "USR-25836",
+        "resolved_zcta": "75201",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Legacy West Retail Showcase",
+        "effective_days_of_supply": 1.2,
+        "ga4_1to1_discount_pct": 19.9,
+        "ga4_coupon_code": "SAVE199-5552",
+        "personalized_hero_banner": "Fast Direct Delivery to Dallas (Arts District / Uptown), TX: Get Nest Learning Thermostat Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.2075107462",
+        "user_id": "USR-29846",
+        "resolved_zcta": "94043",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Mountain View",
+        "effective_days_of_supply": 0.5,
+        "ga4_1to1_discount_pct": 18.6,
+        "ga4_coupon_code": "SAVE186-7469",
+        "personalized_hero_banner": "Fast Direct Delivery to Mountain View, CA: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.7479902771",
+        "user_id": "USR-31844",
+        "resolved_zcta": "78701",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Austin Congress Flagship",
+        "effective_days_of_supply": 8.5,
+        "ga4_1to1_discount_pct": 0.8,
+        "ga4_coupon_code": "NUDGE8-9449",
+        "personalized_hero_banner": "In Stock Near You (78701): Pick Up BigQuery Data Ninja Mug Today at Austin Congress Flagship (43 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.8256808191",
+        "user_id": "USR-43950",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.7,
+        "ga4_1to1_discount_pct": 18.7,
+        "ga4_coupon_code": "SAVE187-2411",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (Tribeca), NY: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.8691424211",
+        "user_id": "USR-22122",
+        "resolved_zcta": "11211",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Williamsburg",
+        "effective_days_of_supply": 1.0,
+        "ga4_1to1_discount_pct": 15.7,
+        "ga4_coupon_code": "SAVE157-8814",
+        "personalized_hero_banner": "Fast Direct Delivery to Brooklyn (Williamsburg), NY: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.4632421535",
+        "user_id": "USR-45193",
+        "resolved_zcta": "02116",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Newbury Street Boston Studio",
+        "effective_days_of_supply": 0.5,
+        "ga4_1to1_discount_pct": 11.9,
+        "ga4_coupon_code": "SAVE119-4655",
+        "personalized_hero_banner": "Fast Direct Delivery to Boston (Back Bay), MA: Get BigQuery Data Ninja Mug Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.8861271840",
+        "user_id": "USR-36060",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 4.3,
+        "ga4_1to1_discount_pct": 13.2,
+        "ga4_coupon_code": "SAVE132-1141",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Nest Learning Thermostat Today at Google Store Chelsea NYC (29 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.5301574322",
+        "user_id": "USR-95963",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 4.3,
+        "ga4_1to1_discount_pct": 4.4,
+        "ga4_coupon_code": "NUDGE44-7811",
+        "personalized_hero_banner": "In Stock Near You (10013): Pick Up Nest Learning Thermostat Today at Google Store Chelsea NYC (29 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.3065473016",
+        "user_id": "USR-66893",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Audio",
+        "routed_sku_id": "PROD-102",
+        "routed_sku_name": "Pixel Buds Pro",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 2.7,
+        "ga4_1to1_discount_pct": 19.6,
+        "ga4_coupon_code": "SAVE196-8933",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (SoHo), NY: Get Pixel Buds Pro Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.2911102046",
+        "user_id": "USR-90710",
+        "resolved_zcta": "78758",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Domain Northside Experience",
+        "effective_days_of_supply": 1.0,
+        "ga4_1to1_discount_pct": 1.2,
+        "ga4_coupon_code": "NUDGE12-6238",
+        "personalized_hero_banner": "Fast Direct Delivery to Austin (The Domain), TX: Get Nest Learning Thermostat Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.3272367912",
+        "user_id": "10928374.3272367912",
+        "resolved_zcta": "78701",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Audio",
+        "routed_sku_id": "PROD-102",
+        "routed_sku_name": "Pixel Buds Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Austin Congress Flagship",
+        "effective_days_of_supply": 6.9,
+        "ga4_1to1_discount_pct": 19.3,
+        "ga4_coupon_code": "SAVE193-8836",
+        "personalized_hero_banner": "In Stock Near You (78701): Pick Up Pixel Buds Pro Today at Austin Congress Flagship (46 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.7837951308",
+        "user_id": "USR-87923",
+        "resolved_zcta": "78701",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Audio",
+        "routed_sku_id": "PROD-102",
+        "routed_sku_name": "Pixel Buds Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Austin Congress Flagship",
+        "effective_days_of_supply": 6.9,
+        "ga4_1to1_discount_pct": 17.4,
+        "ga4_coupon_code": "SAVE174-6722",
+        "personalized_hero_banner": "In Stock Near You (78701): Pick Up Pixel Buds Pro Today at Austin Congress Flagship (46 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.3454336096",
+        "user_id": "USR-27241",
+        "resolved_zcta": "10013",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 0.7,
+        "ga4_1to1_discount_pct": 17.0,
+        "ga4_coupon_code": "SAVE170-1874",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (Tribeca), NY: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.8907321610",
+        "user_id": "USR-31357",
+        "resolved_zcta": "78758",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Domain Northside Experience",
+        "effective_days_of_supply": 3.5,
+        "ga4_1to1_discount_pct": 19.0,
+        "ga4_coupon_code": "SAVE190-0830",
+        "personalized_hero_banner": "In Stock Near You (78758): Pick Up Pixel Watch 2 Today at Domain Northside Experience (29 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.6342054727",
+        "user_id": "USR-50898",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 1.6,
+        "ga4_1to1_discount_pct": 4.6,
+        "ga4_coupon_code": "NUDGE46-8801",
+        "personalized_hero_banner": "Fast Direct Delivery to New York (SoHo), NY: Get Pixel Watch 2 Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.2131760149",
+        "user_id": "10928374.2131760149",
+        "resolved_zcta": "94301",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Apparel",
+        "routed_sku_id": "PROD-105",
+        "routed_sku_name": "GCP Cloud Developer Hoodie",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Stanford Shopping Center Hub",
+        "effective_days_of_supply": 1.1,
+        "ga4_1to1_discount_pct": 12.7,
+        "ga4_coupon_code": "SAVE127-9506",
+        "personalized_hero_banner": "Fast Direct Delivery to Palo Alto, CA: Get GCP Cloud Developer Hoodie Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.9867336292",
+        "user_id": "10928374.9867336292",
+        "resolved_zcta": "60201",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Chicago Fulton Market Store",
+        "effective_days_of_supply": 0.1,
+        "ga4_1to1_discount_pct": 18.1,
+        "ga4_coupon_code": "SAVE181-1168",
+        "personalized_hero_banner": "Fast Direct Delivery to Evanston (North Shore), IL: Get Nest Learning Thermostat Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.9383423314",
+        "user_id": "USR-50015",
+        "resolved_zcta": "94043",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Mountain View",
+        "effective_days_of_supply": 5.8,
+        "ga4_1to1_discount_pct": 1.2,
+        "ga4_coupon_code": "NUDGE12-7110",
+        "personalized_hero_banner": "In Stock Near You (94043): Pick Up Nest Learning Thermostat Today at Google Store Mountain View (65 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.3273186154",
+        "user_id": "USR-11699",
+        "resolved_zcta": "78758",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Domain Northside Experience",
+        "effective_days_of_supply": 0.4,
+        "ga4_1to1_discount_pct": 1.4,
+        "ga4_coupon_code": "NUDGE14-7039",
+        "personalized_hero_banner": "Fast Direct Delivery to Austin (The Domain), TX: Get Google Pixel 8 Pro Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.7204250449",
+        "user_id": "USR-21753",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 1: Event Param (Checkout / Store Locator ZIP)",
+        "top_category_affinity": "Merchandise",
+        "routed_sku_id": "PROD-106",
+        "routed_sku_name": "BigQuery Data Ninja Mug",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 7.6,
+        "ga4_1to1_discount_pct": 0.8,
+        "ga4_coupon_code": "NUDGE8-8739",
+        "personalized_hero_banner": "In Stock Near You (10012): Pick Up BigQuery Data Ninja Mug Today at Google Store Chelsea NYC (52 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.1648989347",
+        "user_id": "10928374.1648989347",
+        "resolved_zcta": "94043",
+        "geo_resolution_tier": "Tier 3: City-to-ZCTA Crosswalk",
+        "top_category_affinity": "Audio",
+        "routed_sku_id": "PROD-102",
+        "routed_sku_name": "Pixel Buds Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Mountain View",
+        "effective_days_of_supply": 7.6,
+        "ga4_1to1_discount_pct": 20.0,
+        "ga4_coupon_code": "SAVE200-8079",
+        "personalized_hero_banner": "In Stock Near You (94043): Pick Up Pixel Buds Pro Today at Google Store Mountain View (66 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.9481549118",
+        "user_id": "USR-18629",
+        "resolved_zcta": "78701",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Smart Home",
+        "routed_sku_id": "PROD-104",
+        "routed_sku_name": "Nest Learning Thermostat",
+        "fulfillment_routing": "DTC_WAREHOUSE_SHIP",
+        "nearest_store_name": "Austin Congress Flagship",
+        "effective_days_of_supply": 0.1,
+        "ga4_1to1_discount_pct": 12.4,
+        "ga4_coupon_code": "SAVE124-9340",
+        "personalized_hero_banner": "Fast Direct Delivery to Austin (Downtown), TX: Get Nest Learning Thermostat Shipped Free from Our DTC Hub!",
+        "personalized_cta": "Order Online \u2014 Free 2-Day Delivery"
+      },
+      {
+        "user_pseudo_id": "10928374.7139590541",
+        "user_id": "USR-77486",
+        "resolved_zcta": "02139",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Wearables",
+        "routed_sku_id": "PROD-107",
+        "routed_sku_name": "Pixel Watch 2",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Newbury Street Boston Studio",
+        "effective_days_of_supply": 8.3,
+        "ga4_1to1_discount_pct": 17.4,
+        "ga4_coupon_code": "SAVE174-8965",
+        "personalized_hero_banner": "In Stock Near You (02139): Pick Up Pixel Watch 2 Today at Newbury Street Boston Studio (51 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      },
+      {
+        "user_pseudo_id": "10928374.7717432788",
+        "user_id": "USR-57894",
+        "resolved_zcta": "10012",
+        "geo_resolution_tier": "Tier 2: 1P User Property (postal_code)",
+        "top_category_affinity": "Electronics",
+        "routed_sku_id": "PROD-101",
+        "routed_sku_name": "Google Pixel 8 Pro",
+        "fulfillment_routing": "IN_STORE_BOPIS_LIA",
+        "nearest_store_name": "Google Store Chelsea NYC",
+        "effective_days_of_supply": 8.0,
+        "ga4_1to1_discount_pct": 11.1,
+        "ga4_coupon_code": "SAVE111-9214",
+        "personalized_hero_banner": "In Stock Near You (10012): Pick Up Google Pixel 8 Pro Today at Google Store Chelsea NYC (66 Available)!",
+        "personalized_cta": "Reserve for 1-Hour Store Pickup"
+      }
+    ]
+  }
+}

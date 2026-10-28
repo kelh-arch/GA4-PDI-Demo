@@ -1,0 +1,13 @@
+{"city": "Mountain View", "region": "California", "zcta": "94043", "bucket_start": 0, "bucket_end": 39, "pop_weight": 0.4}
+{"city": "Mountain View", "region": "California", "zcta": "94301", "bucket_start": 40, "bucket_end": 69, "pop_weight": 0.3}
+{"city": "Mountain View", "region": "California", "zcta": "94086", "bucket_start": 70, "bucket_end": 84, "pop_weight": 0.15}
+{"city": "Mountain View", "region": "California", "zcta": "95014", "bucket_start": 85, "bucket_end": 94, "pop_weight": 0.1}
+{"city": "Mountain View", "region": "California", "zcta": "94107", "bucket_start": 95, "bucket_end": 99, "pop_weight": 0.05}
+{"city": "New York", "region": "New York", "zcta": "10012", "bucket_start": 0, "bucket_end": 44, "pop_weight": 0.45}
+{"city": "New York", "region": "New York", "zcta": "10013", "bucket_start": 45, "bucket_end": 79, "pop_weight": 0.35}
+{"city": "New York", "region": "New York", "zcta": "11211", "bucket_start": 80, "bucket_end": 91, "pop_weight": 0.12}
+{"city": "New York", "region": "New York", "zcta": "07030", "bucket_start": 92, "bucket_end": 99, "pop_weight": 0.08}
+{"city": "Austin", "region": "Texas", "zcta": "78701", "bucket_start": 0, "bucket_end": 49, "pop_weight": 0.5}
+{"city": "Austin", "region": "Texas", "zcta": "78758", "bucket_start": 50, "bucket_end": 84, "pop_weight": 0.35}
+{"city": "Austin", "region": "Texas", "zcta": "75024", "bucket_start": 85, "bucket_end": 93, "pop_weight": 0.09}
+{"city": "Austin", "region": "Texas", "zcta": "75201", "bucket_start": 94, "bucket_end": 99, "pop_weight": 0.06}

@@ -1,0 +1,937 @@
+{
+  "target_platform": "GA4 Measurement Protocol (https://www.google-analytics.com/mp/collect)",
+  "generated_at": "2026-10-27T14:56:34.267439+00:00",
+  "batch_size": 30,
+  "payloads": [
+    {
+      "client_id": "10928374.4240986228",
+      "user_id": "10928374.4240986228",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "78701"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "8.5"
+        },
+        "personalized_offer_pct": {
+          "value": "2.8%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "78701",
+            "sku_id": "PROD-106",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.9659995541",
+      "user_id": "USR-12448",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "78701"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "1.0"
+        },
+        "personalized_offer_pct": {
+          "value": "0.8%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "78701",
+            "sku_id": "PROD-105",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.8169210984",
+      "user_id": "USR-23780",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94043"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "2.9"
+        },
+        "personalized_offer_pct": {
+          "value": "1.2%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94043",
+            "sku_id": "PROD-101",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.4332489938",
+      "user_id": "USR-71122",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "5.2"
+        },
+        "personalized_offer_pct": {
+          "value": "12.1%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.3856328887",
+      "user_id": "10928374.3856328887",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94043"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "1.1"
+        },
+        "personalized_offer_pct": {
+          "value": "1.3%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94043",
+            "sku_id": "PROD-106",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.9401283737",
+      "user_id": "USR-81024",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "5.2"
+        },
+        "personalized_offer_pct": {
+          "value": "4.4%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.8020754754",
+      "user_id": "USR-64682",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "55401"
+        },
+        "pdi_geo_segment": {
+          "value": "PDI_LOOKALIKE_EXPANSION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.6"
+        },
+        "personalized_offer_pct": {
+          "value": "12.3%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "55401",
+            "sku_id": "PROD-104",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.2875468155",
+      "user_id": "USR-51920",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "97209"
+        },
+        "pdi_geo_segment": {
+          "value": "PDI_LOOKALIKE_EXPANSION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "7.4"
+        },
+        "personalized_offer_pct": {
+          "value": "19.9%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "97209",
+            "sku_id": "PROD-102",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.4601740269",
+      "user_id": "USR-98652",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "5.2"
+        },
+        "personalized_offer_pct": {
+          "value": "11.1%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.1629671764",
+      "user_id": "10928374.1629671764",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "20190"
+        },
+        "pdi_geo_segment": {
+          "value": "PDI_LOOKALIKE_EXPANSION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "4.7"
+        },
+        "personalized_offer_pct": {
+          "value": "10.1%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "20190",
+            "sku_id": "PROD-106",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.6121889762",
+      "user_id": "10928374.6121889762",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.7"
+        },
+        "personalized_offer_pct": {
+          "value": "0.8%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-107",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.1629785798",
+      "user_id": "10928374.1629785798",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94301"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "9.7"
+        },
+        "personalized_offer_pct": {
+          "value": "1.2%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94301",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.9034208601",
+      "user_id": "USR-45979",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "4.3"
+        },
+        "personalized_offer_pct": {
+          "value": "1.2%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-104",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.3599985020",
+      "user_id": "10928374.3599985020",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10012"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.0"
+        },
+        "personalized_offer_pct": {
+          "value": "13.1%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10012",
+            "sku_id": "PROD-105",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.3939956916",
+      "user_id": "10928374.3939956916",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94301"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "1.0"
+        },
+        "personalized_offer_pct": {
+          "value": "19.3%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94301",
+            "sku_id": "PROD-107",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.4159996716",
+      "user_id": "USR-95552",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10012"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "SUPPRESS_HOLD_SPEND"
+        },
+        "nearest_store_edos": {
+          "value": "0.1"
+        },
+        "personalized_offer_pct": {
+          "value": "18.9%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10012",
+            "sku_id": "PROD-104",
+            "routing_decision": "SUPPRESS_HOLD_SPEND"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.2486114107",
+      "user_id": "USR-85210",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "5.2"
+        },
+        "personalized_offer_pct": {
+          "value": "4.4%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.1264698356",
+      "user_id": "10928374.1264698356",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.7"
+        },
+        "personalized_offer_pct": {
+          "value": "16.4%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-107",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.4509313921",
+      "user_id": "10928374.4509313921",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "78758"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "1.0"
+        },
+        "personalized_offer_pct": {
+          "value": "4.4%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "78758",
+            "sku_id": "PROD-104",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.6637702463",
+      "user_id": "USR-48093",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10012"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "8.0"
+        },
+        "personalized_offer_pct": {
+          "value": "4.4%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10012",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.5009265435",
+      "user_id": "USR-12809",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94301"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "9.7"
+        },
+        "personalized_offer_pct": {
+          "value": "15.5%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94301",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.3441175984",
+      "user_id": "10928374.3441175984",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "20190"
+        },
+        "pdi_geo_segment": {
+          "value": "PDI_LOOKALIKE_EXPANSION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "3.6"
+        },
+        "personalized_offer_pct": {
+          "value": "20.0%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "20190",
+            "sku_id": "PROD-101",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.5709043325",
+      "user_id": "10928374.5709043325",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "30309"
+        },
+        "pdi_geo_segment": {
+          "value": "PDI_LOOKALIKE_EXPANSION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "4.6"
+        },
+        "personalized_offer_pct": {
+          "value": "12.7%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "30309",
+            "sku_id": "PROD-105",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.2957301180",
+      "user_id": "10928374.2957301180",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94301"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "4.0"
+        },
+        "personalized_offer_pct": {
+          "value": "12.1%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94301",
+            "sku_id": "PROD-106",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.2056570186",
+      "user_id": "10928374.2056570186",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.4"
+        },
+        "personalized_offer_pct": {
+          "value": "11.1%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-105",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.4809012397",
+      "user_id": "10928374.4809012397",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94043"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "5.8"
+        },
+        "personalized_offer_pct": {
+          "value": "14.8%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94043",
+            "sku_id": "PROD-104",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.6071928600",
+      "user_id": "USR-25836",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "75201"
+        },
+        "pdi_geo_segment": {
+          "value": "PDI_LOOKALIKE_EXPANSION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "1.2"
+        },
+        "personalized_offer_pct": {
+          "value": "19.9%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "75201",
+            "sku_id": "PROD-104",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.2075107462",
+      "user_id": "USR-29846",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "94043"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.5"
+        },
+        "personalized_offer_pct": {
+          "value": "18.6%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "94043",
+            "sku_id": "PROD-107",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.7479902771",
+      "user_id": "USR-31844",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "78701"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "IN_STORE_BOPIS_LIA"
+        },
+        "nearest_store_edos": {
+          "value": "8.5"
+        },
+        "personalized_offer_pct": {
+          "value": "0.8%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "78701",
+            "sku_id": "PROD-106",
+            "routing_decision": "IN_STORE_BOPIS_LIA"
+          }
+        }
+      ]
+    },
+    {
+      "client_id": "10928374.8256808191",
+      "user_id": "USR-43950",
+      "user_properties": {
+        "resolved_zcta": {
+          "value": "10013"
+        },
+        "pdi_geo_segment": {
+          "value": "SEED_CHAMPION"
+        },
+        "stock_routing_channel": {
+          "value": "DTC_WAREHOUSE_SHIP"
+        },
+        "nearest_store_edos": {
+          "value": "0.7"
+        },
+        "personalized_offer_pct": {
+          "value": "18.7%"
+        }
+      },
+      "events": [
+        {
+          "name": "omnichannel_stock_route_assigned",
+          "params": {
+            "zcta": "10013",
+            "sku_id": "PROD-107",
+            "routing_decision": "DTC_WAREHOUSE_SHIP"
+          }
+        }
+      ]
+    }
+  ]
+}

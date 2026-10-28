@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDI × GA4 × Stock Inventory Command Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app-layout">
+        <!-- Left Sidebar -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-icon">PDI</div>
+                <div>
+                    <div class="brand-title">Geo × Stock Router</div>
+                    <div class="brand-sub">PDI 330-d + GA4 + Inventory</div>
+                </div>
+            </div>
+
+            <div class="nav-section-label">Activation Workbenches</div>
+            <nav class="nav-menu">
+                <button class="nav-btn active" onclick="switchTab('tab-lookalike', this)">
+                    <span>A. Lookalike Geo-Expansion</span>
+                    <span class="nav-btn-sub">Subspace Cosine + White-Space</span>
+                </button>
+                <button class="nav-btn" onclick="switchTab('tab-routing', this)">
+                    <span>B. Stock-Aware Demand Router</span>
+                    <span class="nav-btn-sub">eDOS: In-Store LIA vs. DTC Ship</span>
+                </button>
+                <button class="nav-btn" style="display: none;" onclick="switchTab('tab-users', this)">
+                    <span>C. 1:1 User & Sync Payloads</span>
+                    <span class="nav-btn-sub">3-Tier Geo Waterfall + JSON APIs</span>
+                </button>
+                <button class="nav-btn" style="display: none;" onclick="switchTab('tab-sql', this)">
+                    <span>D. BigQuery SQL & Architecture</span>
+                    <span class="nav-btn-sub">ML.DISTANCE & eDOS Production SQL</span>
+                </button>
+            </nav>
+
+            <div class="sidebar-card">
+                <div class="sidebar-card-title">
+                    <span>PDI 330-Dim Feature Vector</span>
+                    <span class="badge badge-lookalike">ZCTA5</span>
+                </div>
+                <div class="subspace-legend">
+                    <div class="legend-item">
+                        <span><span class="legend-dot" style="background:#3b82f6"></span>Search Trends</span>
+                        <code>dims 0–127</code>
+                    </div>
+                    <div class="legend-item">
+                        <span><span class="legend-dot" style="background:#10b981"></span>Maps & Busyness</span>
+                        <code>dims 128–255</code>
+                    </div>
+                    <div class="legend-item">
+                        <span><span class="legend-dot" style="background:#f59e0b"></span>Weather & AQI</span>
+                        <code>dims 256–329</code>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar-card">
+                <div class="sidebar-card-title">
+                    <span>3-Tier GA4 → ZCTA Waterfall</span>
+                </div>
+                <div class="subspace-legend" id="sidebar-tier-breakdown">
+                    <div class="legend-item">
+                        <span>Tier 1: Checkout/sGTM ZIP</span>
+                        <code id="tier1-pct">--%</code>
+                    </div>
+                    <div class="legend-item">
+                        <span>Tier 2: 1P Profile Postal</span>
+                        <code id="tier2-pct">--%</code>
+                    </div>
+                    <div class="legend-item">
+                        <span>Tier 3: City→ZCTA Crosswalk</span>
+                        <code id="tier3-pct">--%</code>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <header class="exec-header">
+                <div class="exec-title">
+                    <h1>Population Dynamics Insights (PDI) × GA4 × Stock Activation</h1>
+                    <p>Subspace-Weighted Geo Lookalike Expansion (Use Case A) &amp; Predictive Depletion In-Store / DTC Demand Routing (Use Case B)</p>
+                </div>
+                <div style="display:flex; gap:0.6rem; align-items:center;">
+                    <span class="badge badge-bopis" id="live-status-badge">● 32 ZCTAs × 8 GA4 SKUs Active</span>
+                </div>
+            </header>
+
+            <!-- Top KPI Strip -->
+            <section class="kpi-strip">
+                <div class="kpi-card">
+                    <div class="kpi-label">GA4 Seed Champion ZCTAs</div>
+                    <div class="kpi-value" id="kpi-seeds" style="color:#fbbf24">6</div>
+                    <div class="kpi-sub">Top ROAS &amp; LTV Anchor Geos</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">Qualified Lookalike ZCTAs</div>
+                    <div class="kpi-value" id="kpi-qualified" style="color:#c4b5fd">--</div>
+                    <div class="kpi-sub">High PDI Similarity + Low Ad Saturation</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">In-Store BOPIS / LIA Routes</div>
+                    <div class="kpi-value" id="kpi-bopis" style="color:#34d399">--</div>
+                    <div class="kpi-sub">Healthy Local Stock + High Foot Traffic</div>
+                </div>
+                <div class="kpi-card">
+                    <div class="kpi-label">DTC Ship / Spend Hold Routes</div>
+                    <div class="kpi-value" id="kpi-dtc-hold" style="color:#60a5fa">--</div>
+                    <div class="kpi-sub" id="kpi-dtc-sub">Auto-rerouted from low store stock</div>
+                </div>
+            </section>
+
+            <!-- TAB A: LOOKALIKE & GEO-EXPANSION -->
+            <section id="tab-lookalike" class="tab-pane active">
+                <div class="panel" style="margin-bottom: 1.75rem;">
+                    <div class="panel-header" style="margin-bottom:0.75rem;">
+                        <div>
+                            <div class="panel-title">1. GA4 Seed Champion ZCTAs (Click to Filter Target Seed Profile)</div>
+                            <div class="panel-subtitle">High-ROAS 1P GA4 ZIP codes whose 330-dim PDI behavioral embeddings serve as the target centroid</div>
+                        </div>
+                        <button class="btn-secondary" onclick="selectSeedFilter('ALL')">All 6 Seed Champions</button>
+                    </div>
+                    <div class="seed-strip" id="seed-champions-strip"></div>
+                </div>
+
+                <div class="grid-2col">
+                    <!-- Left Controls -->
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <div class="panel-title">Subspace Similarity Controls</div>
+                                <div class="panel-subtitle">Weight PDI's 3 embedding subspaces</div>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Search Trends Weight (dims 0–127)</span>
+                                <span class="control-val" id="val-w-search">0.50</span>
+                            </div>
+                            <input type="range" id="slider-w-search" min="0" max="1" step="0.05" value="0.50" oninput="recalcLookalikes()">
+                            <div class="control-hint">Regional category intent &amp; product search momentum</div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Maps &amp; Busyness Weight (dims 128–255)</span>
+                                <span class="control-val" id="val-w-maps">0.35</span>
+                            </div>
+                            <input type="range" id="slider-w-maps" min="0" max="1" step="0.05" value="0.35" oninput="recalcLookalikes()">
+                            <div class="control-hint">Retail corridor foot traffic &amp; commercial dwell density</div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Weather &amp; AQI Weight (dims 256–329)</span>
+                                <span class="control-val" id="val-w-weather">0.15</span>
+                            </div>
+                            <input type="range" id="slider-w-weather" min="0" max="1" step="0.05" value="0.15" oninput="recalcLookalikes()">
+                            <div class="control-hint">Seasonal climate &amp; outdoor mobility conditions</div>
+                        </div>
+
+                        <hr style="border:none; border-top:1px solid var(--border-subtle); margin:1rem 0;">
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Min Weighted Cosine Similarity</span>
+                                <span class="control-val" id="val-min-sim">0.78</span>
+                            </div>
+                            <input type="range" id="slider-min-sim" min="0.50" max="0.95" step="0.01" value="0.78" oninput="recalcLookalikes()">
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Max Current GA4 Paid Saturation</span>
+                                <span class="control-val" id="val-max-sat">35%</span>
+                            </div>
+                            <input type="range" id="slider-max-sat" min="0.10" max="0.80" step="0.05" value="0.35" oninput="recalcLookalikes()">
+                            <div class="control-hint">Filters for untapped "White-Space" ZIPs with low current ad spend</div>
+                        </div>
+
+                        <button class="btn-primary" onclick="pushExpansionToRouter()">
+                            Push Qualified Lookalike ZIPs to Stock Router →
+                        </button>
+                    </div>
+
+                    <!-- Right Candidate Table -->
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <div class="panel-title">Use Case A: Candidate Lookalike ZCTAs Ranked by White-Space Opportunity</div>
+                                <div class="panel-subtitle">Formula: <code>WhiteSpace = WeightedSim × (1 - PaidSaturation) × (1 + 0.25 × TechAffinity)</code></div>
+                            </div>
+                        </div>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Candidate ZCTA</th>
+                                        <th>Closest Seed Twin</th>
+                                        <th>Subspace Sim (Search / Maps / Weather)</th>
+                                        <th>Composite Sim</th>
+                                        <th>GA4 Paid Sat.</th>
+                                        <th>White-Space Score</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="lookalike-table-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB B: STOCK-AWARE DEMAND ROUTING -->
+            <section id="tab-routing" class="tab-pane">
+                <div class="grid-2col">
+                    <!-- Left Controls -->
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <div class="panel-title">Stock &amp; PDI Routing Rules</div>
+                                <div class="panel-subtitle">Configure Effective Days of Supply (eDOS)</div>
+                            </div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Select GA4 Product SKU</span>
+                            </div>
+                            <select id="select-sku" onchange="recalcRouting()"></select>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Filter ZCTA Cohort</span>
+                            </div>
+                            <select id="select-cohort-filter" onchange="recalcRouting()">
+                                <option value="ALL">All 32 Active ZCTAs (Seeds + Lookalikes)</option>
+                                <option value="QUALIFIED_PLUS_SEEDS">Seeds + Qualified Lookalike Expansion ZIPs</option>
+                                <option value="SEEDS_ONLY">Seed Champion ZCTAs Only</option>
+                            </select>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Min Effective Days of Supply (eDOS)</span>
+                                <span class="control-val" id="val-min-edos">3.5 days</span>
+                            </div>
+                            <input type="range" id="slider-min-edos" min="1.0" max="10.0" step="0.5" value="3.5" oninput="recalcRouting()">
+                            <div class="control-hint">Minimum local store runway required before triggering In-Store LIA</div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>PDI Foot-Traffic Depletion Weight (α)</span>
+                                <span class="control-val" id="val-busyness-w">0.50</span>
+                            </div>
+                            <input type="range" id="slider-busyness-w" min="0.0" max="1.2" step="0.1" value="0.50" oninput="recalcRouting()">
+                            <div class="control-hint">Accelerates predicted store stock burn in high-busyness ZCTAs</div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>PDI Weather Friction Sensitivity (β)</span>
+                                <span class="control-val" id="val-weather-w">0.35</span>
+                            </div>
+                            <input type="range" id="slider-weather-w" min="0.0" max="1.0" step="0.05" value="0.35" oninput="recalcRouting()">
+                            <div class="control-hint">Pivots to DTC Ship-to-Home when severe weather depresses store visits</div>
+                        </div>
+
+                        <div class="control-group">
+                            <div class="control-label">
+                                <span>Max Store Distance for BOPIS</span>
+                                <span class="control-val" id="val-max-dist">15.0 mi</span>
+                            </div>
+                            <input type="range" id="slider-max-dist" min="3.0" max="30.0" step="1.0" value="15.0" oninput="recalcRouting()">
+                        </div>
+                    </div>
+
+                    <!-- Right Routing Matrix + Live Creative Preview -->
+                    <div>
+                        <div class="panel" style="margin-bottom: 1.75rem;">
+                            <div class="panel-header">
+                                <div>
+                                    <div class="panel-title">Live Dynamic Ad &amp; Storefront Experience Inspector</div>
+                                    <div class="panel-subtitle" id="selected-zcta-preview-label">Click any ZCTA row below to inspect its real-time Ad &amp; Storefront payload</div>
+                                </div>
+                                <span id="preview-channel-badge" class="badge badge-bopis">IN_STORE_BOPIS_LIA</span>
+                            </div>
+                            <div class="creative-preview-grid">
+                                <div class="ad-card">
+                                    <div class="ad-card-tag">Google Ads Geo + LIA Creative</div>
+                                    <div class="ad-card-headline" id="preview-ad-headline">--</div>
+                                    <div class="ad-card-meta" id="preview-ad-meta">--</div>
+                                </div>
+                                <div class="ad-card">
+                                    <div class="ad-card-tag">DTC Website / App Geo Banner</div>
+                                    <div class="ad-card-headline" id="preview-web-banner">--</div>
+                                    <div class="ad-card-meta" id="preview-web-meta">--</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel">
+                            <div class="panel-header">
+                                <div>
+                                    <div class="panel-title">Use Case B: Real-Time ZCTA × SKU Demand Routing Matrix</div>
+                                    <div class="panel-subtitle"><code>eDOS = (LocalStock - SafetyFloor) / [GA4_Velocity × (1 + α·PDI_Busyness)]</code></div>
+                                </div>
+                            </div>
+                            <div class="table-wrap">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th>ZCTA &amp; Nearest Store</th>
+                                            <th>Local Stock (Safety)</th>
+                                            <th>DTC Whse Stock</th>
+                                            <th>PDI Busyness / Weather</th>
+                                            <th>eDOS (Days)</th>
+                                            <th>Visit Propensity</th>
+                                            <th>Routed Channel &amp; Bid Mod</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="routing-table-body"></tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB C: 1:1 USER & ACTIVATION PAYLOADS (Hidden) -->
+            <section id="tab-users" class="tab-pane" style="display: none;">
+                <div class="grid-equal">
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <div class="panel-title">1:1 GA4 User × ZCTA × Stock Decision Inspector</div>
+                                <div class="panel-subtitle">Shows how anonymous &amp; known GA4 users resolve to a ZCTA and receive stock-aware messaging</div>
+                            </div>
+                        </div>
+                        <div class="table-wrap">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>GA4 User &amp; Segment</th>
+                                        <th>Resolved ZCTA &amp; Tier</th>
+                                        <th>Top Affinity SKU</th>
+                                        <th>1:1 Coupon + Stock Route</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="users-table-body"></tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="panel">
+                        <div class="panel-header">
+                            <div>
+                                <div class="panel-title">Downstream Activation Payloads</div>
+                                <div class="panel-subtitle">Ready-to-sync JSON payloads generated from BigQuery</div>
+                            </div>
+                            <div style="display:flex; gap:0.4rem; flex-wrap:wrap;">
+                                <button class="btn-secondary" onclick="showPayload('google_ads_geo_lia_payload.json')">Google Ads LIA</button>
+                                <button class="btn-secondary" onclick="showPayload('dtc_web_personalization_payload.json')">DTC Web API</button>
+                                <button class="btn-secondary" onclick="showPayload('ga4_measurement_protocol_geo_payload.json')">GA4 MP Sync</button>
+                            </div>
+                        </div>
+                        <div class="code-viewer" id="payload-json-viewer">Loading activation payloads...</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- TAB D: ARCHITECTURE & BIGQUERY SQL (Hidden) -->
+            <section id="tab-sql" class="tab-pane" style="display: none;">
+                <div class="panel">
+                    <div class="panel-header">
+                        <div>
+                            <div class="panel-title">Production BigQuery SQL Pipeline (<code>pdi_geo_inventory_queries.sql</code>)</div>
+                            <div class="panel-subtitle">Implements 3-tier GA4 ZCTA resolution, 330-dim PDI subspace cosine similarity (<code>ML.DISTANCE</code>), and <code>eDOS</code> stock-aware routing</div>
+                        </div>
+                        <button class="btn-secondary" onclick="copySqlCode()">Copy SQL Pipeline</button>
+                    </div>
+                    <div class="code-viewer" id="sql-code-viewer" style="max-height: 640px;">Loading BigQuery SQL pipeline...</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

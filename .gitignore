@@ -1,0 +1,5 @@
+__pycache__/
+*.py[cod]
+.firebase/
+pglite-debug.log
+.DS_Store
